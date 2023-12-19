@@ -5,6 +5,10 @@ body {
   background-color: #ffffff;
 }
 
+header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 a {
   color: currentColor;
 }
@@ -33,6 +37,10 @@ p,
 ul {
   padding: 0;
   margin: 0;
+}
+
+.container {
+  display: flex;
 }
 
 /* styles */
