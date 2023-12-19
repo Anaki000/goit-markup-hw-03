@@ -18,6 +18,19 @@ address {
   font-style: normal;
 }
 
+/* Reset styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  padding: 0;
+  margin: 0;
+}
+
 /* styles */
 
 /* styles header */
@@ -26,6 +39,7 @@ address {
 }
 
 .header-nav {
+  display: flex;
 }
 
 .header-logo {
@@ -36,6 +50,7 @@ address {
   line-height: 1.17em;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: flex;
 }
 
 .logo-studio {
@@ -46,6 +61,7 @@ address {
   font-weight: 500;
   line-height: 1.5em;
   letter-spacing: 0.02em;
+  display: flex;
 }
 
 .nav-list-item {
@@ -53,6 +69,7 @@ address {
 
 .nav-item-link {
   color: #2e2f42;
+  display: flex;
 }
 
 .nav-item-link:hover {
@@ -67,9 +84,11 @@ address {
   font-family: Roboto;
   line-height: 1.5em;
   letter-spacing: 0.02em;
+  display: flex;
 }
 
 .address-list {
+  display: flex;
 }
 
 .address-list-item {
