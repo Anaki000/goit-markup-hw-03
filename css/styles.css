@@ -18,6 +18,10 @@ address {
   font-style: normal;
 }
 
+img {
+  display: block;
+}
+
 /* Reset styles */
 h1,
 h2,
