@@ -52,6 +52,20 @@ ol {
   margin: 0 auto;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /* styles header */
 
 .div-header {
@@ -180,6 +194,15 @@ ol {
 /* styles section2 */
 
 .section-two {
+}
+
+.div-section-two {
+  padding: 120px 0;
+}
+
+.paragraph-list {
+  display: flex;
+  gap: 24px;
 }
 
 .header-three {
