@@ -72,6 +72,7 @@ ol {
 
 .div-header {
   display: flex;
+  justify-content: space-between;
 }
 
 .header {
@@ -186,7 +187,10 @@ ol {
   border: none;
   border-radius: 4px;
   padding: 16px 32px;
-  gap: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  margin-top: 48px;
 }
 
 .button:hover {
