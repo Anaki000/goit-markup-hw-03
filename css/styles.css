@@ -205,6 +205,10 @@ ol {
   gap: 24px;
 }
 
+.paragraph-item {
+  width: calc((100% - 72px) / 4);
+}
+
 .header-three {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 20px;
@@ -225,6 +229,7 @@ ol {
 
 .section-three {
   background-color: #f4f4fd;
+  margin-bottom: 8px;
 }
 
 .header-two {
