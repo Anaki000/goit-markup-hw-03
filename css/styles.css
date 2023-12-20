@@ -56,6 +56,11 @@ ol {
 }
 
 /* styles header */
+
+.div-header {
+  display: flex;
+}
+
 .header {
   color: var(--SLATE, #434455);
 }
