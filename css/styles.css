@@ -245,11 +245,11 @@ ol {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   margin-bottom: 72px;
-  gap: 24px;
 }
 
 .list-photo {
   display: flex;
+  gap: 24px;
 }
 
 .header-two {
@@ -264,6 +264,11 @@ ol {
 
 .list-section-three {
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.div-agent {
+  padding: 32px 0;
 }
 
 /* styles section4 */
