@@ -279,7 +279,7 @@ ol {
 /* styles section4 */
 
 .section-four {
-  padding-top: 120px 0 120px 0;
+  padding: 120px 0 120px 0;
 }
 
 .ul-portfolio {
@@ -290,7 +290,7 @@ ol {
 }
 
 .header-portfolio {
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .li-portfolio {
