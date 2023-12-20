@@ -230,6 +230,26 @@ ol {
 
 .section-three {
   background-color: #f4f4fd;
+  padding: 120px 0;
+}
+
+.div-section-three {
+}
+
+.header-twosection {
+  color: var(--NAVY-BLUE, #2e2f42);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11em;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+  gap: 24px;
+}
+
+.list-photo {
+  display: flex;
 }
 
 .header-two {
