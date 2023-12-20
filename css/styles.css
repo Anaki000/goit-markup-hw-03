@@ -194,10 +194,10 @@ ol {
 /* styles section2 */
 
 .section-two {
+  padding: 120px 0;
 }
 
 .div-section-two {
-  padding: 120px 0 120px;
 }
 
 .paragraph-list {
@@ -215,6 +215,7 @@ ol {
   font-weight: 500;
   line-height: 1.2em;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .text {
@@ -229,7 +230,6 @@ ol {
 
 .section-three {
   background-color: #f4f4fd;
-  margin-bottom: 8px;
 }
 
 .header-two {
