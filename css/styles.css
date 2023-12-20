@@ -189,8 +189,9 @@ ol {
   padding: 16px 32px;
   margin-left: auto;
   margin-right: auto;
-  display: flex;
+  display: block;
   margin-top: 48px;
+  min-width: 169px;
 }
 
 .button:hover {
