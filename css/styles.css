@@ -232,15 +232,6 @@ ol {
   margin-bottom: 8px;
 }
 
-.header-three-team {
-  color: var(--NAVY-BLUE, #2e2f42);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2em;
-  letter-spacing: 0.02em;
-  margin-bottom: 8px;
-}
-
 .text {
   color: var(--SLATE, #434455);
   font-size: 16px;
@@ -254,6 +245,16 @@ ol {
 .section-three {
   background-color: #f4f4fd;
   padding: 120px 0;
+}
+
+.header-three-team {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2em;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+  text-align: center;
 }
 
 .div-section-three {
