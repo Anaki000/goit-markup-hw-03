@@ -11,6 +11,7 @@ header {
 
 a {
   color: currentColor;
+  text-decoration: none;
 }
 
 button {
@@ -73,6 +74,7 @@ ol {
 .div-header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header {
@@ -113,6 +115,7 @@ ol {
 .nav-item-link {
   padding: 24px 0;
   color: #2e2f42;
+  display: block;
 }
 
 .nav-item-link:hover {
@@ -227,7 +230,15 @@ ol {
   line-height: 1.2em;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
-  text-align: center;
+}
+
+.header-three-team {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2em;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .text {
@@ -248,7 +259,9 @@ ol {
 .div-section-three {
 }
 
-.header-twosection {
+/*  */
+
+.header-title {
   color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
   font-size: 36px;
@@ -281,6 +294,12 @@ ol {
 
 .div-agent {
   padding: 32px 0;
+  display: flex;
+  width: 232px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
 }
 
 .text-agent {
@@ -316,6 +335,12 @@ ol {
 
 .header-portfolio-three {
   margin-bottom: 8px;
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2em;
+  letter-spacing: 0.02em;
 }
 
 /* styles footer */
@@ -347,4 +372,5 @@ ol {
   font-weight: 400;
   line-height: 1.5em;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
